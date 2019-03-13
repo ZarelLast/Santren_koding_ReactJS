@@ -14,10 +14,9 @@ import style from '../../App.css'
 class Cardsantren extends React.Component {
   render () {
     return (
-      <div>
       <Col sm='4'>
         <a href='#' className='text-decoration-none text-body'>
-          <Card className={style.ribut}>
+          <Card className='bg_shadow'>
             <CardImg
               top-width='100%'
               src={this.props.gambar}
@@ -45,7 +44,6 @@ class Cardsantren extends React.Component {
           </Card>
         </a>
       </Col>
-      </div>
     )
   }
 }
